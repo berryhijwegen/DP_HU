@@ -1,9 +1,8 @@
-package source.Persistence.P1;
+package source.voorbereidendeOpdrachten.Persistence.P1;
 
 import java.sql.*;
 public class Main {
     public static void main(String[] args) throws SQLException {
-        String dbUrl = "jdbc:oracle:thin:@localhost:1521:";
         String host = "localhost";
         String user = "BERRY";
         String pass = "123";
@@ -16,5 +15,8 @@ public class Main {
         while(AfdelingLocaties.next()){
             System.out.println(AfdelingLocaties.getString("locatie"));
         }
+
+        myStmt.close();
+        myConn.close();
     }
 }
