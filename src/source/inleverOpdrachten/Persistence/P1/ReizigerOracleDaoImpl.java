@@ -1,4 +1,7 @@
 package source.inleverOpdrachten.Persistence.P1;
+// Berry Hijwegen
+// 1738601
+// Persistentie inleveropdracht 1
 
 import java.sql.Date;
 import java.util.ArrayList;
