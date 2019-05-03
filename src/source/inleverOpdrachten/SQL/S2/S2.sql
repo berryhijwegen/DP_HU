@@ -56,7 +56,7 @@ INSERT INTO uitvoeringen
 VALUES ('DAP', TO_DATE('01-07-2019'), 7566, 'DE MEERN');
 
 INSERT INTO inschrijvingen (cursist, cursus, begindatum)
-VALUES (7900, 'DAP', TO_DATE('01-01-2019'));INSCHRIJVINGEN
+VALUES (7900, 'DAP', TO_DATE('01-01-2019'));
 
 INSERT INTO inschrijvingen (cursist, cursus, begindatum)
 VALUES (7782, 'DAP', TO_DATE('01-07-2019'));
