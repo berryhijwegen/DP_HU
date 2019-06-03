@@ -77,7 +77,7 @@ WHERE afd = 30 AND functie = 'MANAGER';
 -- 8
 INSERT INTO medewerkers (mnr, naam, voorl, functie, chef, gbdatum, maandsal,afd)
 VALUES (7420, 'HIJWEGEN', 'B', 'MANAGER', 7839, TO_DATE('13-04-2001'), 2200.00, 50);
-COMMIT;
+
 INSERT INTO afdelingen
 VALUES (50, 'FINANCIËN', 'LEERDAM', 7420);
 
